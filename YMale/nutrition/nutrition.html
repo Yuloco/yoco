@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
     <link href="../style sheets/subsub nutrition.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="favicon.gif" type="image/gif" sizes="16x16">
     <title>Nutrition</title>
 </head>
 
@@ -423,31 +424,31 @@
                 setTimeout(showSlides, 5000); // Change image every 5 seconds
             }
 
-                    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-        window.onscroll = function() {
-            scrollFunction()
-        };
+            // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+            window.onscroll = function() {
+                scrollFunction()
+            };
 
-        function scrollFunction() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                document.getElementById("sid").style.fontSize = "1vw";
-                document.getElementById("logo").style.height = "50px";
-                document.getElementById("logo").style.width = "120px";
-                document.getElementById("sid").style.marginTop = "40px";
-                document.getElementById("tuy").style.height = "60px";
-                document.getElementById("IG").style.height = "20px";
-                document.getElementById("IG").style.width = "80px";
+            function scrollFunction() {
+                if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                    document.getElementById("sid").style.fontSize = "1vw";
+                    document.getElementById("logo").style.height = "50px";
+                    document.getElementById("logo").style.width = "120px";
+                    document.getElementById("sid").style.marginTop = "40px";
+                    document.getElementById("tuy").style.height = "60px";
+                    document.getElementById("IG").style.height = "20px";
+                    document.getElementById("IG").style.width = "80px";
 
-            } else {
-                document.getElementById("sid").style.fontSize = "1.2vw";
-                document.getElementById("logo").style.height = "80px";
-                document.getElementById("logo").style.width = "200px";
-                document.getElementById("sid").style.marginTop = "60px";
-                document.getElementById("tuy").style.height = "80px";
-                document.getElementById("IG").style.height = "20px";
-                document.getElementById("IG").style.width = "80px";
+                } else {
+                    document.getElementById("sid").style.fontSize = "1.2vw";
+                    document.getElementById("logo").style.height = "80px";
+                    document.getElementById("logo").style.width = "200px";
+                    document.getElementById("sid").style.marginTop = "60px";
+                    document.getElementById("tuy").style.height = "80px";
+                    document.getElementById("IG").style.height = "20px";
+                    document.getElementById("IG").style.width = "80px";
+                }
             }
-        }
 
             /* Set the width of the sidebar to 250px and the left margin of the page content to 250px */
             function openNav() {
