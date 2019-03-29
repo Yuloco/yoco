@@ -1,0 +1,729 @@
+body {
+    background-color: rgb(247, 247, 247);
+    color: black;
+    max-width: 100%;
+}
+
+html body {
+    margin: 0%;
+}
+
+.fall {
+    overflow: hidden;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    display: inline-block;
+    padding-bottom: 1%;
+    transition: 0.4s;
+}
+
+.heades {
+    display: none;
+}
+
+.heade {
+    padding-top: 0.5%;
+    transition: 0.4s;
+    padding-left: 2%;
+    float: left;
+    max-width: 40%;
+    height: 80px;
+}
+
+#logo {
+    transition: 0.4s;
+    width: 200px;
+    height: 80px;
+}
+
+#IG {
+    transition: 0.4s;
+    width: 80px;
+    height: 20px;
+}
+
+.slink {
+    color: rgb(238, 8, 92);
+    padding: 0.5% 0% 0.5% 48%;
+    white-space: nowrap;
+    font-family: Impact;
+    font-size: 1.2vw;
+    transition: 0.4s;
+    margin-top: 60px;
+}
+
+.sidebar {
+    display: none;
+}
+
+.link {
+    display: none
+}
+
+a:visited {
+    color: none
+}
+
+a:active {
+    color: none
+}
+
+.dropdd {
+    cursor: pointer;
+    margin: 2% 1% 2% 1%;
+}
+
+.sidebarz {
+    max-height: 100%;
+    width: 18%;
+    float: left;
+    position: -webkit-fixed;
+    position: fixed;
+    z-index: 0;
+    top: 12%;
+    font-size: 1vw;
+    overflow: auto;
+    display: block;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    background-color: rgb(255, 255, 255);
+    color: rgb(238, 8, 92);
+}
+
+.sidcon {
+    max-width: 95%;
+    border-top: solid 2px rgba(255, 192, 203, 0.507);
+}
+
+.words {
+    font-family: Century Gothic;
+    font-size: 2vw;
+    width: 100%;
+    text-align: left;
+    padding-left: 2%;
+    color: rgb(252, 74, 104);
+}
+
+.words hr {
+    width: 90%;
+    border-color: rgba(255, 192, 218, 0.493);
+}
+
+.words:hover {
+    color: rgb(250, 218, 236);
+}
+
+.words1 {
+    font-family: Century Gothic;
+    font-size: 2vw;
+    width: 100%;
+    text-align: left;
+    padding-left: 2%;
+    color: rgb(250, 218, 234);
+}
+
+.words1 hr {
+    width: 90%;
+    border-color: rgba(255, 192, 216, 0.493);
+}
+
+.words1:hover {
+    color: rgb(245, 121, 189);
+}
+
+.minpic {
+    width: 100%;
+    display: inline-block;
+}
+
+#imagini {
+    width: 100%;
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bod1 {
+    margin-left: 18.5%;
+    margin-top: 8%;
+}
+
+#main {
+    display: none;
+}
+
+.drop {
+    cursor: pointer;
+    margin: 10px 0px 0px 0px;
+    display: block;
+    font-family: century gothic;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.959);
+    padding: 3%;
+}
+
+.dropd {
+    cursor: pointer;
+}
+
+.container1 {
+    display: inline-block;
+    max-width: 100%;
+    height: 315px;
+    margin-bottom: 5%;
+}
+
+.containerp {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 5%;
+}
+
+.propp {
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#frames {
+    width: 24.5%;
+    height: 200px;
+}
+
+.prop5 {
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+    float: right;
+    text-align: center;
+    background-color: white;
+}
+
+h1 {
+    font-family: century gothic;
+    font-size: 3vw;
+    white-space: normal;
+}
+
+.prop {
+    max-width: 45%;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+#frame {
+    width: 520px;
+    height: 520px;
+}
+
+.prop2 {
+    display: inline-block;
+    width: 55%;
+    white-space: normal;
+    float: right;
+    text-align: center;
+    background-color: white;
+}
+
+.writ {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.minpic {
+    position: relative;
+    overflow: hidden;
+}
+
+#imagini {
+    transition: transform .2s;
+}
+
+.prop img {
+    border-radius: 2px
+}
+
+.container1 hr {
+    width: 90%;
+    border-color: rgba(255, 153, 212, 0.432);
+}
+
+.con {
+    font-family: Century Gothic;
+    font-size: 3vw;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    white-space: pre-wrap;
+    font-weight: bold;
+}
+
+.conu {
+    font-family: Century Gothic;
+    font-size: 2vw;
+    margin-bottom: 1%;
+    width: 100%;
+    text-align: center;
+    white-space: pre-wrap;
+    color: rgb(15, 153, 207);
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+}
+
+
+/* Hide the images by default */
+
+.mySlides {
+    display: none;
+}
+
+
+/* Fading animation */
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.footer2 {
+    color: rgb(41, 41, 41);
+    display: block;
+    background-color: rgb(253, 181, 241);
+    width: 100%;
+    white-space: normal;
+    text-align: left;
+    padding-bottom: 3%;
+    margin-top: 1%;
+}
+
+.footer1 {
+    color: rgb(41, 41, 41);
+    display: none;
+    background-color: rgb(253, 181, 241);
+    width: 100%;
+    white-space: normal;
+    text-align: left;
+    margin-top: 1%;
+}
+
+#footlogo {
+    width: 100px;
+    height: 40px;
+}
+
+.vuvu {
+    display: inline;
+    padding-bottom: 2%;
+}
+
+p {
+    font-family: century gothic;
+    font-size: 1.2vw;
+}
+
+p3 {
+    font-family: century gothic;
+    font-size: 1vw;
+    opacity: 0.5;
+    line-height: 1.5;
+}
+
+p4 {
+    font-family: century gothic;
+    font-size: 0.8vw;
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+    text-decoration-color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    text-emphasis-color: inherit;
+    color: inherit
+}
+
+.sepa {
+    display: block;
+    margin-left: 2%;
+}
+
+.sepa1 {
+    display: block;
+    margin-left: 2%;
+}
+
+@media only screen and (max-width:1024px) {
+    body {
+        background-color: white;
+    }
+    .top {
+        position: fixed;
+        max-width: 100%;
+        z-index: 1;
+        top: 0;
+        background-color: white;
+        width: 100%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .topbar {
+        background-color: white;
+        max-width: 100%;
+        max-height: 5%;
+        overflow: visible;
+    }
+    .menuicon {
+        background-color: rgb(255, 255, 255);
+        margin-top: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        float: left;
+    }
+    .menuline {
+        width: 50px;
+        height: 5px;
+        background-color: rgb(238, 8, 92);
+        margin: 6px
+    }
+    .heades {
+        padding-top: 1%;
+        transition: 0.4s;
+        padding-left: 2%;
+        max-width: 40%;
+        max-height: 50px;
+        display: inline;
+    }
+    #logo1 {
+        width: 35%;
+        height: 85px;
+    }
+    .fall {
+        display: none;
+    }
+    .heade {
+        display: none;
+    }
+    .link {
+        display: none;
+        position: fixed;
+        background-color: rgba(253, 253, 253, 0.822);
+        z-index: 1;
+        max-width: 70%;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        overflow: auto;
+        height: 100%;
+        font-family: MV Boli;
+        padding: 4%;
+        transition: 0.5s;
+    }
+    .link a {
+        color: rgb(238, 8, 92);
+        padding: 5%;
+        display: block;
+        text-decoration: none;
+        font-family: arial;
+        text-align: center;
+        font-size: 5vw;
+        transition: 0.3s;
+    }
+    .bod1 {
+        max-width: 100%;
+        margin-top: 15%;
+        margin-left: 0%;
+    }
+    /* The more button menu */
+    .sidebar {
+        height: 100%;
+        /* 100% Full-height */
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Stay on top */
+        top: 0;
+        right: 0;
+        background-color: rgba(238, 8, 92, 0.644);
+        /* Black*/
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        padding-top: 60px;
+        /* Place content 60px from the top */
+        transition: 0.5s;
+        /* 0.5 second transition effect to slide in the sidebar */
+        display: block;
+    }
+    /* The sidebar links */
+    .sidebar a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s;
+        font-family: century gothic;
+    }
+    /* When you mouse over the navigation links, change their color */
+    .sidebar a:hover {
+        color: rgb(236, 152, 183);
+    }
+    /* Position and style the close button (top right corner) */
+    .sidebar a.closebtn {
+        color: rgb(252, 252, 252);
+    }
+    .sidebar .closebtn {
+        top: 0;
+        float: right;
+        font-size: 10vw;
+    }
+    /* The button used to open the sidebar */
+    .openbtn {
+        font-size: 5vw;
+        cursor: pointer;
+        background-color: rgba(238, 8, 92, 0.568);
+        color: white;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 50% 0% 0% 50%;
+        white-space: nowrap;
+    }
+    .openbtn:hover {
+        background-color: rgba(247, 62, 176, 0);
+        border: none;
+        color: rgba(255, 255, 255, 0);
+    }
+    /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+    #main {
+        transition: margin-left .5s;
+        /* If you want a transition effect */
+        padding: 20px;
+        display: inherit;
+        margin-left: 73%;
+        position: fixed;
+        top: 50%;
+    }
+    /* sidbar contents */
+    .sidcon {
+        max-width: 95%;
+        border-top: solid 2px rgba(255, 192, 234, 0.507);
+    }
+    .minpic {
+        width: 100%;
+        display: inline-block;
+    }
+    #imagin {
+        transition: transform .2s;
+    }
+    #imagin {
+        width: 100%;
+        height: 500px;
+    }
+    .link a:hover {
+        background-color: rgba(0, 0, 0, 0.596);
+    }
+    .show {
+        display: block;
+    }
+    #sid {
+        display: none;
+    }
+    .sid {
+        display: none;
+    }
+    .container1 {
+        display: block;
+        max-width: 100%;
+        height: 48%;
+    }
+    .prop {
+        max-width: 100%;
+        display: inline-block;
+        white-space: nowrap;
+        padding-left: 4%;
+    }
+    #frame {
+        width: 700px;
+        height: 500px;
+    }
+    #frames {
+        width: 24.5%;
+        height: 250px;
+    }
+    h1 {
+        font-size: 6vw;
+    }
+    .prop2 {
+        width: 100%;
+        text-align: left;
+        float: none;
+        background-color: white;
+        padding: 0% 2% 0% 2%;
+    }
+    .con {
+        font-size: 5vw;
+    }
+    .conu {
+        font-size: 4vw;
+    }
+    p {
+        font-family: century gothic;
+        font-size: 4vw;
+    }
+    .footer2 {
+        display: none;
+    }
+    .footer1 {
+        display: block;
+        padding-bottom: 5%;
+        font-size: 5vw;
+        text-align: center;
+    }
+    p3 {
+        font-family: century gothic;
+        text-align: center;
+        opacity: 0.5;
+        font-size: 3vw;
+    }
+    .sepa {
+        display: inline-block;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .sepa1 {
+        display: none;
+    }
+    #IG1 {
+        transition: 0.4s;
+        width: 150px;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .heade {
+        font-size: 10vw;
+    }
+    .bod1 {
+        margin-top: 19%;
+    }
+    .prop2 {
+        margin-top: 8%;
+    }
+    .openbtn {
+        font-size: 5vw;
+        padding: 8px 20px;
+    }
+    #imagin {
+        width: 100%;
+        height: 400px;
+    }
+    #frame {
+        width: 470px;
+        height: 500px;
+    }
+    #frames {
+        width: 24.5%;
+        height: 200px;
+    }
+    #logo1 {
+        width: 50%;
+        height: 55px;
+    }
+    #IG1 {
+        transition: 0.4s;
+        width: 70px;
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .menuline {
+        width: 30px;
+    }
+    .heades {
+        display: inline;
+    }
+    .bod1 {
+        margin-top: 19%;
+    }
+    .prop2 {
+        margin-top: 4%;
+    }
+    .sidebar {
+        padding-top: 15px;
+    }
+    .sidebar a {
+        font-size: 5vw;
+        text-align: left;
+    }
+    .openbtn {
+        font-size: 4vw;
+        padding: 8px 20px;
+    }
+    .propp {
+        margin-left: 0.5%;
+        margin-right: 0.5%;
+    }
+    #imagin {
+        width: 100%;
+        height: 280px;
+    }
+    #frame {
+        width: 400px;
+        height: 350px;
+    }
+    #frames {
+        width: 24.2%;
+        height: 140px;
+    }
+    #logo1 {
+        width: 40%;
+        height: 60px;
+    }
+    #IG1 {
+        transition: 0.4s;
+        width: 65px;
+        height: 20px;
+    }
+}
